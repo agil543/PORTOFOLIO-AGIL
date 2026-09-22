@@ -1,0 +1,17 @@
+/* Custom scrollbar and smooth animation touches */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+    background: #1f293d;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #38bdf8;
+}
+.glow-effect {
+    box-shadow: 0 0 50px -10px rgba(56, 189, 248, 0.15);
+}
